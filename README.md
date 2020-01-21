@@ -18,8 +18,8 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 Your users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- View the optimal layout for the site depending on their device's screen size                     //mobile compatible website
+- See hover states for all interactive elements on the page                                        //hover state 
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
@@ -38,6 +38,9 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 ## Building your project
 
 Practice using version control by creating your own GitHub repository for this challenge. This has the added benefit of being able to publish the site for free on GitHub Pages. Find out more about GitHub Pages here: [https://pages.github.com](https://pages.github.com).
+													
+												// also practice git and github
+
 
 Also, you could try building this project in a team. This is a great way to practice collaborative coding.
 
@@ -47,7 +50,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 1. Initialize your project as a public repository on [GitHub](https://github.com/). This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, [have a read through of this Try Git resource](https://try.github.io/).
 2. Configure your repository to publish your code to [GitHub Pages](https://pages.github.com).
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
+		// 3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
 4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
 5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
 6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
