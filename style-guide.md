@@ -11,14 +11,14 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Dark Violet: hsl(256, 26%, 20%)
-- Grayish Blue: hsl(216, 30%, 68%)
+- Dark Violet: hsl(256, 26%, 20%)    // bg-color of the boxes 
+- Grayish Blue: hsl(216, 30%, 68%)	 
 
 ### Neutral
 
-- Very Dark Violet: hsl(270, 9%, 17%)
-- Dark Grayish Violet: hsl(273, 4%, 51%)
-- Very Light Gray: hsl(0, 0%, 98%)
+- Very Dark Violet: hsl(270, 9%, 17%)		// small headings
+- Dark Grayish Violet: hsl(273, 4%, 51%)	//text on page		
+- Very Light Gray: hsl(0, 0%, 98%) 		// footer bg-color
 
 ## Typography
 

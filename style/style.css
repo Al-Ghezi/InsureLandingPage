@@ -1,0 +1,204 @@
+body {
+  Font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 4% 0;
+  font-size: 1rem;
+}
+
+.navbar{
+  padding: 0.5% 12%;
+  font-size: 1.5rem;
+}
+.nav-item{
+  margin-left: 50px;
+}
+
+ button.nav-link-plans:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: white !important ;
+  width: 8em;
+  height: 3em;
+}
+
+
+
+.big-headings {
+  font-family: 'DM Serif Display', serif;
+  font-size: 500%;
+  font-weight: 400;
+  line-height: 0.9;
+  padding-bottom: 20px;
+}
+
+.small-headings{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: hsl(270, 9%, 17%);
+  margin: 30px 0 10px;
+}
+
+.body-text{
+  font-family: 'Karla', sans-serif;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.intro-top{
+  width:100%;
+  height: 60%;
+  background-color: hsl(256, 26%, 20%);
+  position: absolute;
+  z-index: -2;
+}
+
+.intro-image{
+  width: 30%;
+  max-width: 40rem;
+  position: absolute;
+  right: 12%;
+  top: 15%;
+  z-index: -1;
+}
+
+#intro {
+  color: #fff;
+  width: 100%;
+  height: 55rem;
+  padding: 5rem 0.5rem 0 13%;
+  margin-bottom: 40rem;
+  position: relative;
+  background-image: url(../images/bg-pattern-intro-left-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 12rem;
+  background-position: left bottom;
+}
+.right-bg{
+  width: 100%;
+  height: 48rem;
+  background-image: url(../images/bg-pattern-intro-right-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right top;
+
+}
+
+.line-top{
+  border-top: 2px solid white;
+  width: 10%;
+  margin: 10px 0 30px;
+}
+.line-bottom{
+  border-bottom: 2px solid hsl(273, 4%, 51%);
+  width: 10%;
+  position: absolute;
+  top: 55rem;
+  width: 8%;
+}
+
+#qualities {
+  padding: 12em 13% 0;
+  margin-top: 100px;
+}
+
+#contact{
+  background-color: hsl(256, 26%, 20%);
+  margin: 100px 13%;
+  color: #fff;
+  padding: 70px 50px;
+  background-image: url(../images/bg-pattern-how-we-work-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.btn-contact{
+  font-size: 2em;
+  margin: 50px 70px;
+  padding: 10px 50px;
+}
+
+footer{
+  padding: 5% 13%;
+  background-color: hsl(0, 0%, 98%) ;
+}
+
+.footer-top{
+  border-bottom: 2px solid hsl(273, 4%, 51%);
+  padding-bottom: 10px;
+}
+
+.footer-title{
+font-family: 'Karla', sans-serif;
+color: hsl(273, 4%, 51%);
+weight: 700;
+font-size: 1.3rem;
+padding: 25px 0 12px;
+}
+
+.footer-subtitle{
+ font-size: 1.3rem;
+ margin: 5px 0;
+ color: hsl(270, 9%, 17%);
+}
+
+.footer-subtitle:hover{
+  text-decoration: underline;
+  color: hsl(270, 9%, 17%);
+}
+
+@media (max-width: 1200px) {
+  .intro-image{
+    max-width: 100%;
+    width: 100%;
+    position: static;
+    display: block;
+  }
+  .intro-top{
+    width:100%;
+    height: 700px;
+    background-color: hsl(256, 26%, 20%);
+    position: absolute;
+    z-index: -2;
+  }
+  #intro{
+    text-align: center;
+  }
+  #qualities {
+    padding: 12em 13% 0;
+    margin-top: 150px;
+    text-align: center;
+  }
+  .line-top{
+    position: absolute;
+    top: -100px;
+    z-index: -3;
+  }
+  .line-bottom{
+    margin-left: 30%;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    top: 28rem;
+  }
+  #contact{
+    background-color: hsl(256, 26%, 20%);
+    margin: 100px 13%;
+    text-align: center;
+    color: #fff;
+    padding: 70px 50px;
+    background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
+  }
+  #contact button{
+    margin-left: auto;
+    display: block;
+  }
+
+
+
+}
